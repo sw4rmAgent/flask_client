@@ -1,5 +1,6 @@
 # A script that sends POST and GET requests to server
-from flask import Flask, request, render_template, flash, url_for, jsonify
+from flask import Flask, render_template, flash, url_for, jsonify
+import requests
 import time
 
 class Flask_client:
